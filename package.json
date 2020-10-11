@@ -1,0 +1,17 @@
+{
+  "name": "lisp-interpreter",
+  "version": "1.0.0",
+  "description": "Simple interpreter for a LISP fragment",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "parcel public/index.html"
+  },
+  "author": "Yuriy Dupyn",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4"
+  },
+  "dependencies": {
+    "parsing-combinators": "git+https://github.com/omedusyo/parsing-combinators.git"
+  }
+}
